@@ -1,0 +1,19 @@
+.text-section{
+    margin:80px 0 60px 0;
+}
+
+.text-header{
+    font-size:24px;
+    font-weight:700;
+    text-transform: uppercase;
+}
+
+.text-item{
+    font-size:20px;
+    font-weight:300;
+    margin:20px 0;
+}
+
+@media (max-width:900px){
+
+}

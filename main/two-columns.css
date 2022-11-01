@@ -1,0 +1,152 @@
+.search-input{
+    color:#3B418D;
+}
+
+.billing-adress-label{
+    display:flex;
+}
+
+.shipping-adress-dropmenu{
+    width: 64px;
+    height: 59px;
+    background: #3B418D;
+    position: absolute;
+    right: -3px;
+    top: -3px;
+    padding:17px;
+}
+
+.adress-input{
+    padding: 10px;
+    width:100%;
+    height: 60px;
+    outline: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: 3px solid #90969D;
+    font-size: 16px;
+    position: relative;
+}
+
+.header-btn{
+    border-radius:0 0 35px 0;
+    border:none;
+    background: #61BDF6;
+    width:191px;
+    height:49px;
+    text-align:center;
+    font-size:22px;
+    padding:10px;
+    margin-top:20px;
+}
+
+
+[id^=c]{
+    display: none;
+}
+
+[id^=c] + label{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #77808A;
+    text-align: center;
+    transition:0.3s;
+}
+
+[id^=c] + label:hover{
+    border: 1px solid #76E7C7;
+    transition:0.3s;
+}
+
+[id^=c] + label:after{
+    border: 3px solid #76E7C7;
+    content: '\2713';
+    display: inline-block;
+    color: #76E7C7;
+    font-size: 30px;
+    line-height: 30px;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+[id^=c] + label:before{
+    content: '\2713';
+    display: inline-block;
+    color: #76E7C7;
+    font-size: 30px;
+    line-height: 30px;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+[id^=c]:checked + label:before{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+.form_radio-kind_btn {
+    display: inline-block;
+    color:#90969D;
+    font-weight:400;
+}
+
+.form_radio-kind_btn input[type=radio] {
+    display: none;
+}
+
+.form_radio-kind_btn label {
+    background: white;
+    border:1px solid #90969D;
+    padding:6px 0;
+    transition:0.3s;
+    margin-left:15px;
+    width: 100px;
+    text-align:center;
+}
+
+.form_radio-kind_btn label:hover{
+    border:2px solid #61BDF6;
+    color:#61BDF6;
+    transition:0.3s;
+}
+
+.form_radio-kind_btn input[type=radio]:checked + label {
+    border:2px solid #3B418D;
+    color:#3B418D;
+}
+
+@media(max-width:660px){
+    .shipping-adress-dropmenu{
+        background: none;
+    }
+
+    .pay-dropmenu, .pay-time-btn{
+        width:55px;
+        font-size:16px;
+    }
+
+    .header-btn {
+        background: white;
+        text-align:left;
+        width:auto;
+        padding:10px 0;
+    }
+
+    .adress-header-mobile{
+        display:none;
+    }
+}
+
+
+
+@media(max-width:575px){
+    .adress-input{
+        border:1px solid #90969D
+    }
+}

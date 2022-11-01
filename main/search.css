@@ -1,0 +1,138 @@
+.search-list__item-circle{
+    height:50px;
+    width:50px;
+    background: #76E7C7;
+    border-radius: 50%;
+    position:relative;
+}
+
+.search-list {
+    display: flex;
+    font-size:18px;
+    margin-bottom: 15px;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.search-list__item{
+    width: 36.333%;
+    margin:0 auto;
+}
+
+.search-list__item-right{
+    display:flex;
+    float:right;
+    text-align:center;
+}
+
+.search-cart{
+    position:absolute;
+    right: 15px;
+    top: 14px;
+}
+
+.search-input {
+    padding: 10px;
+    width: 400px;
+    height: 50px;
+    outline: none;
+    margin-top:15px;
+    margin-bottom:10px;
+    border: 1px solid #1C0C2A;
+    font-size:16px;
+    position:relative;
+}
+
+.search-input-form {
+    position: relative;
+}
+
+.search-input-img {
+    position: absolute;
+    right: 23px;
+    top: 31px;
+}
+
+
+.search-list__mobile{
+    display:none;
+    text-align: center;
+}
+
+.search-list__mobile-item{
+    display:none;
+    background: #1C0C2A;
+}
+
+.search-list__item-circle{
+    background: #76E7C7;
+    transition:0.5s;
+}
+
+.search-list__item-circle:hover{
+    background: #A3F2DC;
+    transition:0.5s;
+}
+
+.search-section{
+    padding-top:60px;
+}
+
+
+
+@media (max-width: 850px){
+    .search-list__item{
+        width: 100%;
+        margin:0 auto;
+        padding-top:10px;
+    }
+
+    .search-input {
+        display:none;
+    }
+
+    .search-list__mobile{
+        display:block;
+        position:relative;
+    }
+
+    .search-mobile-input{
+        display:block;
+        padding: 10px;
+        width: 400px;
+        height: 50px;
+        outline: none;
+        margin-top:15px;
+        margin-bottom:10px;
+        border: 1px solid #1C0C2A;
+        font-size:16px;
+    }
+
+    .margin{
+        margin:0 auto;
+    }
+
+    .search-list__mobile-item{
+        display:block;
+        background: #1C0C2A;
+        position:relative;
+    }
+
+    .search-input-mobile-img{
+        position: absolute;
+        right: 23px;
+        top: 31px;
+    }
+
+    .search-input-img {
+        display:none;
+    }
+}
+
+@media (max-width: 650px){
+    .search-mobile-input {
+        width: 350px;
+    }
+}

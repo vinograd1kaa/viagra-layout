@@ -1,0 +1,62 @@
+.about-us-header{
+    font-size:36px;
+    text-transform: uppercase;
+    font-weight:700;
+    color:#3A4353;
+    padding-bottom: 10px;
+}
+
+.about-us-subtitle{
+    font-weight: 300;
+    font-size:22px;
+    padding:15px 0;
+    color:#3A4353;
+    line-height:1.3;
+    position:relative;
+}
+
+.about-us-link{
+    color:#61BDF6;
+    font-weight:300;
+    transition:0.2s;
+}
+
+.about-us-header{
+    font-size:36px;
+    text-transform: uppercase;
+    font-weight:700;
+    color:#3A4353;
+    padding-bottom: 10px;
+}
+
+.about-us-section, .shipping-policy-section{
+    padding-top:30px;
+}
+
+.shipping-policy-circle{
+    height:7px;
+    width:7px;
+    background: #3A4353;
+    border-radius: 50%;
+    position:absolute;
+    top:24px;
+}
+
+.shipping-policy-subtitle{
+    padding-left:15px;
+}
+
+.shipping-header{
+    padding-top:25px;
+}
+
+@media(max-width:700px){
+    .about-us-subtitle{
+        font-weight: 400;
+        font-size:18px;
+    }
+
+    .about-us-header{
+        font-size:24px;
+    }
+}

@@ -1,0 +1,86 @@
+.orig-viagra-section{
+    margin-top:30px;
+}
+
+.orig-viagra-left-section{
+    border:3px solid #3B418D;
+    height:460px;
+    text-align: center;
+}
+
+.orig-viagra-img{
+    margin:0 auto;
+    margin-top: 69px;
+}
+
+@media(max-width:1200px){
+    .orig-viagra-img{
+        margin-top: 55px;
+    }
+}
+
+.orig-viagra-subtitle{
+    font-size:20px;
+    font-weight:300;
+    color:#45485B;
+    line-height: 1.5;
+    margin:25px 0;
+}
+
+.orig-viagra-subtitle-header{
+    font-size:22px;
+    color:#76E7C7;
+    font-weight:400;
+    text-transform: uppercase;
+}
+
+.orig-img{
+    margin-left:35px;
+}
+
+.orig-img-block{
+    margin-top:18px;
+}
+
+.orig-delivery-img{
+    margin-left:50px;
+}
+
+.orig-viagra-mobile-header{
+    display:none;
+}
+
+@media(max-width:1200px){
+    .navigation-section{
+        background: #1C0C2A;
+        margin-bottom: 20px;
+    }
+
+    .orig-viagra-right-section{
+        margin-top:50px;
+    }
+
+    .orig-viagra-comp-header{
+        display:none;
+    }
+
+    .orig-viagra-mobile-header{
+        display:block;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:650px){
+    .orig-delivery-img {
+        margin-left: 15px;
+    }
+
+    .m-t{
+        margin-top:10px;
+    }
+
+    .orig-img-block{
+        margin-top:18px;
+        text-align:center;
+    }
+}
